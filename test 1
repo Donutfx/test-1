@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+    <head>
+        <style>
+       table {
+       border: 2px solid black;
+       border-collapse: collapse;
+       width: 75%;
+       Length: 75%;
+       }
+       th, td {
+       border: 1px solid black;
+       padding: 5px;
+       Text-align: center;
+       }
+       th {
+       background-color: lightgrey;
+       }
+    </style>
     <meta charset="UTF-8">
     <title>HI</title>
 </head>
 <body>
+<h5 style="color:Green">Hi there </h5>
+<table>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Nickname</th>
+    </tr>
+    <tr>
+        <td>Zach</td>
+        <td>Han</td>
+        <td>Donutfx</td>
+    </tr>
+    <tr>
+        <td>Alan</td>
+        <td>Han</td>
+        <td>Cakefx</td>
+    </tr>
+
+</table>
     hello world
 </body>
 </html>
